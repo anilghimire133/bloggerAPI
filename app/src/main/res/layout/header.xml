@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:padding="20dp"
+    android:background="@color/colorPrimaryDark"
+    style="@style/Base.ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="6dp"
+        android:layout_width="64dp"
+        android:src="@drawable/logo"
+        android:layout_height="64dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#FFFF"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:text="http://saybuck.blogspot.com"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
